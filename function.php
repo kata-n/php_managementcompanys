@@ -162,9 +162,9 @@ function validTel($str,$key){
 //DB接続関数
 function dbConnect(){
 //    データベースへ接続準備
-    $dbn = 'mysql:dbname=katawin_company;host=mysql8073.xserver.jp;charset=utf8';
-    $user = 'katawin_black';
-    $password = 'z8hpsotokyo';
+    $dbn = 'mysql:dbname=***********;host=*************;charset=utf8';
+    $user = '*************';
+    $password = '**************';
     $options = array(
     // SQL実行失敗時にはエラーコードのみ設定
     PDO::ATTR_ERRMODE => PDO::ERRMODE_SILENT,
