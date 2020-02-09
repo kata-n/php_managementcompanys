@@ -22,7 +22,7 @@ session_regenerate_id();
 // デバッグ
 //================================
 //デバッグフラグ
-$debug_flg = true;
+$debug_flg = false;
 //デバッグログ関数
 function debug($str){
     global $debug_flg;
